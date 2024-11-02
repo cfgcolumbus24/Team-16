@@ -1,8 +1,9 @@
 import React from 'react'
+import Card from '../components/Card'
 
 const Directory = () => {
   return (
-    <div>Directory</div>
+    <Card/>
   )
 }
 
