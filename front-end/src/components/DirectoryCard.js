@@ -12,7 +12,7 @@ const DirectoryCard = ({ data }) => {
       onClick={() => setShowEmail(true)}
     >
       {/* Use the original Card component */}
-      <Card data={data} />
+      <Card data= {data} />
 
       {/* Email Popup Overlay */}
       {showEmail && (
